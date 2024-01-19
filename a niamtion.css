@@ -1,0 +1,96 @@
+
+ 
+@keyframes slide {
+    0%{
+       transform: translateX(-700px);
+    }
+    70%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: scale(0px);
+    }
+    90% {
+        transform: scale(120%);
+    }
+    100%{
+        transform: scale(0px);
+    }
+}
+@keyframes slidee {
+    0%{
+        transform: translateX(700px);
+     }
+     70%{
+         transform: translateX(0px);
+     }
+     80%{
+         transform: scale(0px);
+     }
+     90% {
+         transform: scale(120%);
+     }
+     100%{
+         transform: scale(0px);
+     }
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.learners{
+    animation: slide ;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+}
+
+
+.the{
+    animation: slidee ;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    
+
+}
+.paradise{
+    animation: slidee ;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+
+}
+/*aniamtions*/
+.slider{
+    animation: slidee ;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+}
+.arrow{
+    animation: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.box{
+    animation: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.rotate{
+    transform: rotate(-90deg)
+
+}
+.up{
+    position:relative;
+    top: -400px
+    
+}
