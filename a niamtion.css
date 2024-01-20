@@ -66,6 +66,7 @@
     animation-duration: 2s;
     animation-timing-function: ease;
     animation-delay: 0s;
+    align-items: start;
 
 }
 /*aniamtions*/

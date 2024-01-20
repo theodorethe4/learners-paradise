@@ -46,6 +46,20 @@ body{
         
         
     }
+    .expp{
+        width: 375px;
+        height: 800px;
+        border-top-right-radius:40px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius:40px;
+        border-bottom-left-radius: 40px;
+        background-color: rgb(255, 0, 166);
+        outline: 5px solid rgb(21, 0, 0);
+        position: relative;
+        left: 510px;
+        top: 500px;
+        
+    }
     .box{
         width: 30px;
         height: 70px;
@@ -70,7 +84,7 @@ body{
     }
     .spacee{
         position: relative;
-        top: 80px;
+        top: 110px;
     }
 
     .spaceee{
@@ -89,20 +103,32 @@ body{
     .blox{
         width: 750px;
         height: 1500px;
+        position: relative;
+        left: -600px;
         border-top-right-radius:40px;
         border-top-left-radius: 40px;
         border-bottom-right-radius:40px;
         border-bottom-left-radius: 40px;
         background-color: rgb(255, 0, 166);
         outline: 5px solid rgb(21, 0, 0);
-        font-size: large;
+        transition: transform 1s ease ;
+         font-size: large  
+        
+        
+    }
+    .blox:hover{
+        transform: translateX(600px);
 
- 
-        
-        
+    }
+
     }
     .eeee{
         position: relative;
         left: 150px;
     }
-}
+    #sticky{
+        position: sticky;
+        top: 0px;
+
+    }
+
